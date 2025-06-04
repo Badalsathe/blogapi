@@ -81,6 +81,10 @@ public class CategoryController {
 
 	// getAll
 
+
+
+	
+
 	@GetMapping("/")
 	public ResponseEntity<List<CategoryDto>> getCategories() {
 
